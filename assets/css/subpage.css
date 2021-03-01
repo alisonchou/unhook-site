@@ -64,7 +64,7 @@ section h3 {
 	body {
 		font-size: 1em;
 	}
-	section {
+	section.long {
 		height: initial;
 	}
 }
