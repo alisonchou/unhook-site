@@ -21,13 +21,13 @@ p {
 	margin-top: .5em;
 }
 section {
-	height: 100vh;
+	min-height: calc(100vh - 2.4em);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	color: var(--gray);
-	padding: 0 1.7em;
+	padding: 1.2em 1.7em;
 }
 section h1 {
 	font-family: 'Assistant', sans-serif;
@@ -49,22 +49,19 @@ section h3 {
 }
 
 @media only screen and (max-width: 780px) {
-	section h1 {
-		font-size: 2.7em;
-	}
 	body {
 		font-size: 1.125em;
 	}
-}
-@media only screen and (max-width: 480px) {
 	section h1 {
-		font-size: 2.4em;
-		margin-top: revert;
+		font-size: 2.7em;
 	}
+}
+@media only screen and (max-width: 830px) and (orientation: landscape),
+            screen and (max-width: 480px) {
 	body {
 		font-size: 1em;
 	}
-	section.long {
-		height: initial;
+	section h1 {
+		font-size: 2.4em;
 	}
 }
