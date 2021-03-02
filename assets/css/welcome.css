@@ -1,0 +1,22 @@
+#popup-tutorial {
+    text-align: left;
+    font-size: .9em;
+    padding: .5em 1em;
+    border-radius: .5em;
+    box-shadow: 0 2em 4em rgba(0, 0, 0, .16), 0 2em 4em rgba(0, 0, 0, .23);
+    background: linear-gradient(to top right, #222, #232323);
+    position: relative;
+    margin-bottom: 2em;
+    margin-left: auto;
+}
+#popup-tutorial > p {
+    margin-bottom: .5em;
+}
+#main {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+section::after {
+    content: "";
+    margin-top: auto;
+}
