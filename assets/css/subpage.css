@@ -47,6 +47,28 @@ section h3 {
 	margin-bottom: 3em;
 	text-align: left;
 }
+/* uninstall page only */
+input, textarea {
+	font: inherit;
+	width: 100%;
+	padding: .5em;
+	border-radius: .4em;
+	margin-top: .3em;
+	margin-bottom: 1em;
+	background-color: #232323;
+	color: #fff;
+	border: #fff solid .09em;
+}
+input[type=submit] {
+	width: 10em;
+}
+input[type=submit]:hover, input[type=submit]:focus {
+	background-color: #333;
+	cursor: pointer;
+}
+.hidden {
+	display: none;
+}
 
 @media only screen and (max-width: 780px) {
 	body {
