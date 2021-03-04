@@ -60,7 +60,7 @@ input, textarea {
 	border: #fff solid .09em;
 }
 input[type=submit] {
-	width: 10em;
+	width: 7em;
 }
 input[type=submit]:hover, input[type=submit]:focus {
 	background-color: #333;
