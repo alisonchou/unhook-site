@@ -58,8 +58,8 @@ input, textarea {
 	margin-top: .3em;
 	margin-bottom: 1em;
 	background-color: #232323;
-	color: #fff;
-	border: #fff solid .09em;
+	color: inherit;
+	border: #555 solid .09em;
 }
 input[type=submit] {
 	width: 7em;
