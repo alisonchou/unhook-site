@@ -3,10 +3,16 @@
 	--secondary: #e2c0c0;
 	--light: #eee;
 	--gray: #ccc;
+	--dark-gray: #333;
+	--darker-gray: #232323;
+	--darkest-gray: #222;
+	--black-gray: #111;
+	--shadow-1: rgba(0, 0, 0, .16);
+	--shadow-2: rgba(0, 0, 0, .22);
 }
 body {
 	font-family: 'Open Sans', serif;
-	background: linear-gradient(to bottom right, #111, #222);
+	background: linear-gradient(to bottom right, var(--black-gray), var(--darkest-gray));
 	margin: 0;
 	font-size: 1.25em;
 }
@@ -57,7 +63,7 @@ input, textarea {
 	border-radius: .4em;
 	margin-top: .3em;
 	margin-bottom: 1em;
-	background-color: #232323;
+	background-color: var(--darker-gray);
 	color: inherit;
 	border: #555 solid .09em;
 }
@@ -65,7 +71,7 @@ input[type=submit] {
 	width: 7em;
 }
 input[type=submit]:hover, input[type=submit]:focus {
-	background-color: #333;
+	background-color: var(--dark-gray);
 	cursor: pointer;
 }
 .hidden {
